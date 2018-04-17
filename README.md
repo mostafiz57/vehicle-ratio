@@ -12,12 +12,12 @@ traffic in it so we want to mask and cropping the images.
 
 Installation pre-requisites & running 
 ----------------------------------------
-For running this project we need and python 2.7.14 installed on our machine. 
-Its important to install 
-	Install python 2.7.14  on Windows
-	Install OpenCV-Python in Windows 
+For running this project we need and python 2.7.14 installed on our machine.  
+ # Its important to install 
+	* Install python 2.7.14  on Windows
+	* Install OpenCV-Python in Windows 
 	( http://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_setup/py_setup_in_windows/py_setup_in_windows.html)
-	Installing PIL 
+	* Installing PIL 
 	
 	#No need to specify any directory  for this project .
 
