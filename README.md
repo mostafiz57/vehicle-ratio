@@ -53,7 +53,7 @@ Image Segmentation
     cropped_image.save(abs_out_path)
 
 <p align="center">
-  <img src="https://sites.google.com/site/andrewssobral/vehicle_detection_haarcascades.png" border="0" />
+  <img src="https://github.com/mostafiz57/vehicle-ratio/blob/master/img/input/Bannani-1.5-2%20-1-mon.jpg" border="0" />
 </p>
 
 	Convert the image RGB to BGR, using the code 
@@ -69,6 +69,10 @@ Image Segmentation
 	After extraction of frames, the image was converted into gray scale so that the processing of the image becomes simpler. 
 	Each color pixel of image is described by three intensities of red (R), blue (B) and green (G).The ratio of ratio of white 
 	pixels to black pixels,remember that some of the pixels from the image were black already from the polygon mask.
+	
+<p align="center">
+  <img src="https://github.com/mostafiz57/vehicle-ratio/blob/master/img/output_mask/Bannani-1.5-2%20-1-mon.jpg" border="0" />
+</p>
 	
 	def count_unmasked_pixels(pil_image):
     pixels = pil_image.load()
@@ -91,7 +95,7 @@ Image Segmentation
     return count
 	
 <p align="center">
-  <img src="https://sites.google.com/site/andrewssobral/vehicle_detection_haarcascades.png" border="0" />
+  <img src="https://github.com/mostafiz57/vehicle-ratio/blob/master/img/result/Bannani-8-9%20-1-sun.jpg" border="0" />
 </p>
 
 
